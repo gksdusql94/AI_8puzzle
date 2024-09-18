@@ -22,6 +22,7 @@ This project implements an AI-based 8-puzzle solver using various search algorit
    cd 8_puzzle
 
 2. Run the program with the desired search method:
+
 '''bash
 python3 8_puzzle.py <method> <input_board>
 <method>: The search method to use (bfs, dfs, ast).
@@ -44,12 +45,19 @@ Maximum RAM usage: The maximum memory used during the search.
 ### Example Output
 '''bash
 Input: bfs 1,2,3,4,5,6,7,8,0
+
 path_to_goal: ['Left', 'Up']
+
 cost_of_path: 2
+
 nodes_expanded: 5
+
 search_depth: 2
+
 max_search_depth: 4
+
 running_time: 0.0021
+
 max_ram_usage: 10.23 MB
 
 ### Notes
