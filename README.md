@@ -69,7 +69,7 @@ plt.show()
 ```
 This will produce a bar graph comparing the running times of BFS, DFS, and A* for solving a given puzzle configuration.
 
-###📝 Notes
+### 📝 Notes
 The goal state is considered to be 0,1,2,3,4,5,6,7,8, where 0 represents the blank space.
 The program uses Manhattan distance as the heuristic for A* search.
 
