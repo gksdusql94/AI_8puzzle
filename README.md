@@ -25,8 +25,8 @@ This project implements an AI-based 8-puzzle solver using various search algorit
 python3 8_puzzle.py <method> <input_board>
  ```
 
-<method>: The search method to use (bfs, dfs, ast).
-<input_board>: The initial board configuration, provided as a comma-separated string of numbers 0-8 where 0 represents the blank space. For example: 1,2,3,4,5,6,7,8,0.
+-method: The search method to use (bfs, dfs, ast).
+-input_board: The initial board configuration, provided as a comma-separated string of numbers 0-8 where 0 represents the blank space. For example: 1,2,3,4,5,6,7,8,0.
 
 Example usage:
 
